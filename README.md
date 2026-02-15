@@ -1,5 +1,4 @@
-# RAG-API-with-FastAPI
-# Network RAG API (FastAPI + ChromaDB + Ollama)
+# RAG API (FastAPI + ChromaDB + Ollama)
 
 A simple Retrieval-Augmented Generation (RAG) API that retrieves context from a Chroma vector database (ChromaDB) and uses a local LLM (TinyLlama via Ollama) to answer questions.
 

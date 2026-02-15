@@ -22,4 +22,17 @@ pip install -r requirements.txt
 ```bash
 python embed.py
 ```
+## Run the API
+```bash
+uvicorn app:app --reload
+```
 
+## Test the API
+
+### Swagger UI
+Open:
+- http://127.0.0.1:8000/docs
+
+### curl
+```bash
+curl -X POST "http://127.0.0.1:8000/query" -G --data-urlencode "q=What is Kubernetes?"

@@ -20,5 +20,5 @@ pip install -r requirements.txt
 ## Create embeddings (build the Chroma DB)
 ```bash
 python embed.py
-
+```
 

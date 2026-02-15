@@ -6,8 +6,9 @@ A simple Retrieval-Augmented Generation (RAG) API that retrieves context from a 
 - Python 3.10+
 - Ollama installed and running
 - TinyLlama pulled:
-  ```bash
-  ollama pull tinyllama
+```bash
+ollama pull tinyllama
+```
 
 ## Setup
 ```bash

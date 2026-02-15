@@ -16,8 +16,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-```bash
+
 ## Create embeddings (build the Chroma DB)
 python embed.py
-```
+
 

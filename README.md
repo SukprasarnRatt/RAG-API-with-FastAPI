@@ -14,6 +14,7 @@ A simple Retrieval-Augmented Generation (RAG) API that retrieves context from a 
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
 ## Create embeddings (build the Chroma DB)
 python embed.py

@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+
+# Chroma persistence (generated)
+db/
+
+# macOS
+.DS_Store
